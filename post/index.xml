@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Vanilla Music</title>
+    <link>http://vanillamusic.io/post/</link>
+    <description>Recent content in Posts on Vanilla Music</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Oct 2014 20:07:19 +0000</lastBuildDate>
+    <atom:link href="http://vanillamusic.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First</title>
+      <link>http://vanillamusic.io/post/first/</link>
+      <pubDate>Mon, 13 Oct 2014 20:07:19 +0000</pubDate>
+      
+      <guid>http://vanillamusic.io/post/first/</guid>
+      <description>&lt;p&gt;##Hello first post&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>second</title>
+      <link>http://vanillamusic.io/post/second/</link>
+      <pubDate>Sat, 18 Jul 2015 14:08:45 +0200</pubDate>
+      
+      <guid>http://vanillamusic.io/post/second/</guid>
+      <description>&lt;p&gt;##Post background color change&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>third</title>
+      <link>http://vanillamusic.io/post/third/</link>
+      <pubDate>Sat, 18 Jul 2015 14:53:21 +0200</pubDate>
+      
+      <guid>http://vanillamusic.io/post/third/</guid>
+      <description>&lt;p&gt;##Carrousel
+Carrousel are special hugo Section that has no content but use the toml header to populate a  slide show.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://vanillamusic.io/</loc>
+    <lastmod>2014-10-13T20:07:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vanillamusic.io/post/first/</loc>
+    <lastmod>2014-10-13T20:07:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vanillamusic.io/post/second/</loc>
+    <lastmod>2015-07-18T14:08:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vanillamusic.io/post/third/</loc>
+    <lastmod>2015-07-18T14:53:21+02:00</lastmod>
+  </url>
+  
+</urlset>
