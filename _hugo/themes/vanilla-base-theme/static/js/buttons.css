@@ -1710,7 +1710,7 @@ html {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  font-family: Helvetica, Arial, freesans, clean, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   white-space: nowrap;
 }
 body {

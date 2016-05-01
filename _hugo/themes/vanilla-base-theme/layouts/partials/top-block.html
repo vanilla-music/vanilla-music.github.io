@@ -7,7 +7,7 @@
         <div class="description">{{ .Site.Params.description }}</div>
         <div class="buttonbox">
        {{ range .Site.Params.social }}
-            <a href="{{ .url }}" class="btn btn-default btn-lg"><i class="icon-{{ lower .title }}"></i> <span class="network-name">{{ .title }}</span></a>
+            <a href="{{ .url }}" class="btn btn-vanilla btn-lg"><i class="icon-{{ lower .title }}"></i> <span class="network-name">{{ .title }}</span></a>
         {{ end }}
         </div>
       </div>

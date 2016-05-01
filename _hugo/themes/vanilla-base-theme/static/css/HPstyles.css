@@ -8,12 +8,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cabin', "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 body {
 
-    font-family: 'Arbutus Slab', "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-family: "Helvetica", "Arial", sans-serif !important;
     line-height: 1.6;
 }
 
@@ -262,6 +262,21 @@ footer a:hover {
     background-color: aliceblue;
     border-color: black;
 }
+
+.btn-vanilla {
+    color:white;
+    background-color: rgb(254,102,0);
+    border-color: black;
+}
+
+.btn-vanilla:hover,
+.btn-vanilla:focus,
+.btn-vanilla:active {
+    color: rgb(254,102,0);
+    background-color: white;
+    border-color: black;
+}
+
 
 .btn-info:hover, .btn-primary:hover, .btn-success:hover {
     background: aliceblue;
