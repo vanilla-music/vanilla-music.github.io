@@ -21,12 +21,20 @@
     </item>
     
     <item>
-      <title>Demo</title>
+      <title>Screenshots</title>
       <link>http://vanillamusic.io/post/demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://vanillamusic.io/post/demo/</guid>
-      <description>&lt;video id=&#34;video&#34; src=&#34;http://vanillamusic.io/img/demo.webm&#34; controls muted autoplay&gt;&lt;/video&gt;
+      <description>
+
+&lt;h3 id=&#34;music-library&#34;&gt;Music Library&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vanillamusic.io/img/sshot2.jpg&#34; alt=&#34;Library&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;now-playing&#34;&gt;Now Playing&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vanillamusic.io/img/sshot1.jpg&#34; alt=&#34;Now Playing&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

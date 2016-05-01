@@ -1,6 +1,10 @@
 +++
-title = "Demo"
+title = "Screenshots"
 weight = 2
 +++
+### Music Library
+![Library](/img/sshot2.jpg)
 
-<video id="video" src="/img/demo.webm" controls muted autoplay></video>
+### Now Playing
+![Now Playing](/img/sshot1.jpg)
+
