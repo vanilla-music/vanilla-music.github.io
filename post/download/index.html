@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Downloads</title>
+
+    
+    <link href="http://vanillamusic.io/css/bootstrap-theme.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    
+    <link href="http://vanillamusic.io/css/HPstyles.css" rel="stylesheet">
+    <link href="http://vanillamusic.io/css/hugofont.css" rel="stylesheet">
+    <link href="http://vanillamusic.io/css/owl.carousel.css" rel="stylesheet">
+    <link href="http://vanillamusic.io/css/owl.theme.default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+
+  <body>
+
+
+
+<h2 id="app-stores">App stores</h2>
+
+<p><a href="https://play.google.com/store/apps/details?id=ch.blinkenlights.android.vanilla"><img src="/img/google-play.png" alt="Get it on Google-Play" /></a>
+<a href="https://f-droid.org/repository/browse/?fdfilter=vanilla+music&amp;fdid=ch.blinkenlights.android.vanilla"><img src="/img/f-droid.png" alt="Get it on F-Droid" /></a></p>
+
+<h2 id="nightly-builds">Nightly builds</h2>
+
+<p>Nightly builds (built, using the current <a href="https://github.com/vanilla-music/vanilla/commits/master">git HEAD</a>) are available from <a href="http://android.eqmx.net/android/vanilla/VanillaMusic-nightly.apk">here</a>. Note
+that these builds are for testing only and may or may not work.</p>
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <ul class="list-inline">
+            <li><a href="http://twitter.com/spf13" class="icon-twitter icon-2x"></a></li>
+            <li><a href="http://github.com/spf13/hugo" class="icon-octocat icon-2x"></a></li>
+        </ul>
+        <hr>
+        <p>Copyright &copy; Steve Francia 2013&ndash;2014</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="http://vanillamusic.io/js/jquery-2.1.1.min.js"></script>
+<script src="http://vanillamusic.io/js/owl.carousel.min.js"></script>
+
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:true,
+autoplay:true,
+autoplayHoverPause:true,
+autoplayTimeout:3000,
+responsive:{
+    0:{
+        items:1
+    },
+    1000:{
+        items:3
+    },
+}
+})
+</script>
+
+
+</body>
+
+</html>
+

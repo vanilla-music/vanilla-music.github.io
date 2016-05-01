@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Get involved!</title>
+
+    
+    <link href="http://vanillamusic.io/css/bootstrap-theme.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    
+    <link href="http://vanillamusic.io/css/HPstyles.css" rel="stylesheet">
+    <link href="http://vanillamusic.io/css/hugofont.css" rel="stylesheet">
+    <link href="http://vanillamusic.io/css/owl.carousel.css" rel="stylesheet">
+    <link href="http://vanillamusic.io/css/owl.theme.default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+
+  <body>
+
+
+
+<h2 id="translation">Translation</h2>
+
+<p>You can contribute to Vanilla Music without coding skills by helping us to <a href="https://www.transifex.com/vanilla_music/vanilla-music-1/">translate the application</a></p>
+
+<h2 id="submitting-patches">Submitting patches</h2>
+
+<p>Vanilla Musics source code is hosted at <a href="https://github.com/vanilla-music/vanilla/">github</a>.</p>
+
+<p>A good starting point for new contributors is to have a look at issues labeled with <a href="https://github.com/vanilla-music/vanilla/labels/patches-welcome">&lsquo;patches-welcome&rsquo;</a>.
+Most of them are low hanging fruits ;-) We also recommend to have a quick look at the <a href="https://github.com/vanilla-music/vanilla/blob/master/README.md#contributing">&lsquo;contributing&rsquo;</a> section in the README</p>
+
+<h2 id="reporting-bugs">Reporting bugs</h2>
+
+<p>Please use the github <a href="https://github.com/vanilla-music/vanilla/issues">issue tracker</a> to report bugs</p>
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <ul class="list-inline">
+            <li><a href="http://twitter.com/spf13" class="icon-twitter icon-2x"></a></li>
+            <li><a href="http://github.com/spf13/hugo" class="icon-octocat icon-2x"></a></li>
+        </ul>
+        <hr>
+        <p>Copyright &copy; Steve Francia 2013&ndash;2014</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="http://vanillamusic.io/js/jquery-2.1.1.min.js"></script>
+<script src="http://vanillamusic.io/js/owl.carousel.min.js"></script>
+
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:true,
+autoplay:true,
+autoplayHoverPause:true,
+autoplayTimeout:3000,
+responsive:{
+    0:{
+        items:1
+    },
+    1000:{
+        items:3
+    },
+}
+})
+</script>
+
+
+</body>
+
+</html>
+

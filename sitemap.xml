@@ -3,22 +3,22 @@
   
   <url>
     <loc>http://vanillamusic.io/</loc>
-    <lastmod>2014-10-13T20:07:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://vanillamusic.io/post/first/</loc>
-    <lastmod>2014-10-13T20:07:19+00:00</lastmod>
+    <loc>http://vanillamusic.io/post/about/</loc>
   </url>
   
   <url>
-    <loc>http://vanillamusic.io/post/second/</loc>
-    <lastmod>2015-07-18T14:08:45+02:00</lastmod>
+    <loc>http://vanillamusic.io/post/demo/</loc>
   </url>
   
   <url>
-    <loc>http://vanillamusic.io/post/third/</loc>
-    <lastmod>2015-07-18T14:53:21+02:00</lastmod>
+    <loc>http://vanillamusic.io/post/download/</loc>
+  </url>
+  
+  <url>
+    <loc>http://vanillamusic.io/post/development/</loc>
   </url>
   
 </urlset>
