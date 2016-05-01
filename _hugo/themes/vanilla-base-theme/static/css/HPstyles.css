@@ -73,7 +73,7 @@ and (orientation : portrait)
         width: 100%;
         position: relative;
         background: url(../img/desk-mini.jpg) no-repeat;
-        background-size: 100% 100%;
+        background-size: 100%;
         z-index: 99999;
         background-color: black;
     }
