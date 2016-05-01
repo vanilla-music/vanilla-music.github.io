@@ -23,6 +23,17 @@ body {
     text-align: center;
 }
 
+.description {
+	color: #fafff9;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.siteTitle {
+	color: #fefefe;
+	font-weight: bold;
+	font-size: 1.5em;
+}
 
 /* Full Page Image Header Area */
 
