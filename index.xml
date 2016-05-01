@@ -21,12 +21,12 @@
     </item>
     
     <item>
-      <title>Screenshots</title>
+      <title>Demo</title>
       <link>http://vanillamusic.io/post/demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://vanillamusic.io/post/demo/</guid>
-      <description>&lt;p&gt;##Post background color change&lt;/p&gt;
+      <description>&lt;video id=&#34;video&#34; src=&#34;http://vanillamusic.io/img/demo.webm&#34; controls muted autoplay&gt;&lt;/video&gt;
 </description>
     </item>
     

@@ -1,6 +1,6 @@
 +++
-title = "Screenshots"
+title = "Demo"
 weight = 2
 +++
 
-##Post background color change 
+<video id="video" src="/img/demo.webm" controls muted autoplay></video>
