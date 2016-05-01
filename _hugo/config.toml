@@ -1,0 +1,18 @@
+baseurl = "http://vanillamusic.io/"
+languageCode = "en"
+title = "Vanilla Music"
+theme = "vanilla-base-theme"
+
+[params]
+  description = "A small, fast and free (GPLv3) music player for Android"
+  mainIcon = "/img/hugox.png"
+
+[[params.social]]
+    title = "Play store"
+    url = "https://play.google.com/store/apps/details?id=ch.blinkenlights.android.vanilla"
+[[params.social]]
+    title = "F-Droid"
+    url = "https://f-droid.org/repository/browse/?fdid=ch.blinkenlights.android.vanilla"
+[[params.social]]
+    title = "github"
+    url = "https://github.com/vanilla-music/vanilla"
