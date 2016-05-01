@@ -28,9 +28,9 @@ body {
 
 .header {
     display: table;
-    height: 70%;
+    height: 45%;
     width: 100%;
-    min-height: 70%;
+    min-height: 45%;
     position: relative;
     background: url(../img/desk.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 .logo {
-    max-width: 35em;
+    max-width: 15em;
     width: 100%;
     padding: 2em;
 }

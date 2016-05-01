@@ -5,7 +5,7 @@ theme = "vanilla-base-theme"
 
 [params]
   description = "A small, fast and free (GPLv3) music player for Android"
-  mainIcon = "/img/hugox.png"
+  mainIcon = "/img/vanilla-logo.png"
 
 [[params.social]]
     title = "Play store"
