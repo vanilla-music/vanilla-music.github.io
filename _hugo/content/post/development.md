@@ -15,3 +15,6 @@ Most of them are low hanging fruits ;-) We also recommend to have a quick look a
 
 ### Reporting bugs
 Please use the github [issue tracker](https://github.com/vanilla-music/vanilla/issues) to report bugs
+
+### Community
+Join our community on [reddit.com/r/vanillamusic](https://www.reddit.com/r/vanillamusic)
