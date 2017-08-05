@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vanilla Music</title>
+
+    
+    <link href="http://vanillamusic.io/css/bootstrap-theme.css" rel="stylesheet">
+
+    
+    <link href="http://vanillamusic.io/css/HPstyles.css" rel="stylesheet">
+    <link href="http://vanillamusic.io/css/hugofont.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+
+
+    
+    <div id="top" class="header">
+      <div class="vert-text">
+        <a href="#intro"><img src="http://vanillamusic.io//img/vanilla-logo.png" class="logo"></a>
+        <div class="siteTitle">Vanilla Music</div>
+        <div class="description">A small, fast and free (GPLv3) music player for Android</div>
+        <div class="buttonbox">
+       
+            <a href="https://play.google.com/store/apps/details?id=ch.blinkenlights.android.vanilla" class="btn btn-vanilla btn-lg"><i class="icon-play store"></i> <span class="network-name">Play store</span></a>
+        
+            <a href="https://f-droid.org/repository/browse/?fdid=ch.blinkenlights.android.vanilla" class="btn btn-vanilla btn-lg"><i class="icon-f-droid"></i> <span class="network-name">F-Droid</span></a>
+        
+            <a href="https://github.com/vanilla-music/vanilla" class="btn btn-vanilla btn-lg"><i class="icon-github"></i> <span class="network-name">github</span></a>
+        
+        </div>
+      </div>
+    </div>
+    
+
+  
+
+    <div id="main">
+        
+        <div id="intro" class="counterpoint">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                
+                <h2></h2>
+                <p class="lead">
+                    
+
+<p><strong>Index</strong>:
+1. <a href="#1-settings">Settings</a>
+2. <a href="#2-shuffle-and-random-modes">Shuffle and Random modes</a>
+3. <a href="#3-tips-and-tricks">Tips and Tricks</a></p>
+
+<hr />
+
+<blockquote>
+<h1 id="1-settings">1. Settings</h1>
+</blockquote>
+
+<h3 id="audio">Audio</h3>
+
+<h3 id="playback-screen">Playback screen</h3>
+
+<h3 id="library-screen">Library screen</h3>
+
+<h3 id="notifications">Notifications</h3>
+
+<h4 id="notification-mode">Notification mode</h4>
+
+<p>You can choose to never show the notification even when it&rsquo;s playing a track, to always show it, or to show it while a track is playing.</p>
+
+<p>You should be careful with &ldquo;Never show&rdquo; mode : if you remove the app from recent app panel, the music will stop playing because it will kill Vanilla.</p>
+
+<h3 id="accelerometer-shake">Accelerometer shake</h3>
+
+<h3 id="cover-art">Cover art</h3>
+
+<ul>
+<li>#### Load artwork from folder</li>
+</ul>
+
+<p>Vanilla can load .jpg or .png file to display it as a cover art for an album. If there are multiple images in a folder, the priority is for images named &lsquo;cover&rsquo;, then &lsquo;album&rsquo;, and otherwise &lsquo;artwork.jpg&rsquo;.
+Note that a .jpg file will always be preferred over a .png file unless the png has a name with an higher priority.</p>
+
+<ul>
+<li>#### Load artwork from Android</li>
+</ul>
+
+<p>The default Android media library automatically import embedded cover art from audio files (generally saved in /Android/data/com.android.providers.media/albumthumbs/).
+Vanilla can load these images from the system library. Check this box if you want to display album art which come from the file.</p>
+
+<h3 id="miscellaneous-features">Miscellaneous features</h3>
+
+<h3 id="media-library">Media Library</h3>
+
+<ul>
+<li><h4 id="group-albums-by-folder">Group albums by folder</h4>
+
+<p>If that box is checked during a library scan, tracks with the same album name will be separated in different albums according to the folders they are located in, and each album will have the exact same name.
+For example : if 10 tracks have the album tag &ldquo;Sky&rdquo;, and 3 tracks are located in &ldquo;Songs&rdquo; folder while 7 tracks are located in &ldquo;MP3&rdquo; folder, then Vanilla will show two albums named &ldquo;Sky&rdquo;, one with 3 tracks, the other with 7 tracks.</p></li>
+
+<li><h4 id="always-use-built-in-tag-reader">Always use built-in tag reader</h4></li>
+</ul>
+
+<p>Vanilla has its own tag reader. By default (box unchecked), it is only used for Ogg, Opus and FLAC while other formats (mp3, mp4&hellip;) are read by android tag reader. Checking this option will use Vanilla&rsquo;s internal tag reader for any file format.</p>
+
+<ul>
+<li>#### Scan full filesystem (slower)</li>
+</ul>
+
+<p>By default, Vanilla&rsquo;s media scanner only checks files which are indexed in Android&rsquo;s media library. By checking this option, it will scan each and every file on the device.
+It can help when Android&rsquo;s internal library don&rsquo;t update itself until a restart of the device for instance.</p>
+
+<p>Note that whether the box is checked or not, only the indexed folders will be scanned.</p>
+
+<ul>
+<li>#### Flush media database</li>
+</ul>
+
+<p>This will delete all entries from the internal database and recreate a fresh database.
+Sorting options values will also be erased for Date added and Playcount.</p>
+
+<p>Be aware that interrupting the scan by canceling it while this option is activated will reset &ldquo;Hours of music played so far&rdquo; number in statistics. If Vanilla is killed, not only will this number be reseted, but some playlists might be erased.</p>
+
+<h3 id="about">About</h3>
+
+<ul>
+<li>#### Issue tracker</li>
+</ul>
+
+<p>if you encounter any problem with Vanilla music player, you can connect to Github and create an issue. To avoid duplicate issues, we highly recommend you to check the FAQ and existing issues (opened and closed) first.</p>
+
+<blockquote>
+<h1 id="2-shuffle-and-random-modes">2. Shuffle and Random modes</h1>
+</blockquote>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681036-5ee0f92c-72f8-11e7-9a0a-6c4a4e812197.png" alt="inactive" /> <strong>No shuffle</strong> :
+It plays the queue in the normal order.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681144-c733db8e-72f8-11e7-9702-0f887dadbbb7.png" alt="shuffleactive" />  <strong>Shuffle tracks</strong> :
+ It shuffles all tracks in the queue each time you activate the option.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681141-c7046a84-72f8-11e7-9334-017854081625.png" alt="shuffle_album_active" />  <strong>Shuffle albums</strong> :
+It sorts enqueued tracks by album and shuffles them.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681147-c755c848-72f8-11e7-80a2-dc8a5164d757.png" alt="repeat_inactive" />  <strong>No repeat</strong> :
+It stops playing after the last track of the queue.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681148-c756e0de-72f8-11e7-858f-b2987d3981bd.png" alt="repeat_active" />  <strong>Repeat</strong> :
+The queue is repeated endlessly.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28682255-7941905c-72fc-11e7-91fb-fa0f04f12876.png" alt="repeat_current_active" />  <strong>Repeat current track</strong> :
+The current playing track is repeated endlessly.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681142-c71c5dce-72f8-11e7-842a-280600e89c19.png" alt="stop_current_active" />  <strong>Stop after current track</strong> :
+The current playing track is played one time.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681146-c75442b6-72f8-11e7-8199-84ebfcf567bf.png" alt="random_active" />
+  <strong>Random</strong> :
+At the end of the queue, totally random tracks are added gradually from your entire library. Shuffle mode will logically not work while random mode is activated.</p>
+
+<blockquote>
+<h1 id="3-tips-and-tricks">3. Tips and tricks</h1>
+</blockquote>
+
+<ul>
+<li>#### Long pressing Shuffle and Random buttons</li>
+</ul>
+
+<p>Rather than pressing continuously those buttons to change Shuffle and Random modes, you can long press Shuffle/Random icon to quickly choose a specific mode :</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28682017-c4e9fee6-72fb-11e7-9f3d-49b1f37f83c0.jpg" alt="longpressshuffle" />
+<img src="https://user-images.githubusercontent.com/19387072/28682016-c4e9f0b8-72fb-11e7-9782-eb7b00e7efa2.jpg" alt="longpressrepeat" /></p>
+
+<ul>
+<li>#### Long pressing Play all</li>
+</ul>
+
+<p>Long pressing Play all button may be useful to do a batch-add of tracks to queue or to playlist. You can do it in any tab (Tracks, Files, Albums..) and it can be coupled with filters &ndash;&gt; <img src="https://user-images.githubusercontent.com/19387072/28417506-a9973f80-6d58-11e7-88a4-1c648fd00bcf.png" alt="filters" /></p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28682060-e32836ac-72fb-11e7-803b-bfd489972569.jpg" alt="playall" /></p>
+
+<ul>
+<li>#### Sliding queue and controls</li>
+</ul>
+
+<p>When you are in library screen, slide a little bit the now playing bar up to show controls, and slide it more to show the entire queue :</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681657-88274398-72fa-11e7-89ef-aa0e36eb0e54.jpg" alt="1" /></p>
+
+<p>When your are in Playback screen (now playing), you can also show queue quickly by sliding controls up :</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28681658-8828e0f4-72fa-11e7-9f9b-ac3be5f5e135.jpg" alt="2" /></p>
+
+<ul>
+<li>#### Quickly removing tracks from queue or playlist</li>
+</ul>
+
+<p>To remove a track from the queue without long pressing it, just slide left on the move grabber located at right.
+You can also perform this in a playlist while editing it.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28682094-fa6d343e-72fb-11e7-9126-31057bf25021.jpg" alt="movegrabberdelete" /></p>
+
+<ul>
+<li>#### Quickly view an album in now playing screen</li>
+</ul>
+
+<p>If you (single) press the area above progress bar, you can view the album of the currently played track. It is a quick way to do the &ldquo;More from&hellip; &gt; Album&rdquo; option.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19387072/28683787-30a35ce4-7302-11e7-821e-d9b8c68ac34a.jpg" alt="filteralbum" /></p>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      
+      
+    
+
+    </div>
+
+        
+				
+        
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <hr>
+        <p>Built using <a href="http://gohugo.io/">HUGO</a> &amp; the <a href="http://themes.gohugo.io/hugo-base-theme/">hugo-base-theme</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="http://vanillamusic.io/js/jquery-2.1.1.min.js"></script>
+<script src="http://vanillamusic.io/js/owl.carousel.min.js"></script>
+
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:true,
+autoplay:true,
+autoplayHoverPause:true,
+autoplayTimeout:3000,
+responsive:{
+    0:{
+        items:1
+    },
+    1000:{
+        items:3
+    },
+}
+})
+</script>
+
+
+</body>
+
+</html>
+
