@@ -1,4 +1,4 @@
-baseurl = "http://vanillamusic.io/"
+baseurl = "https://vanilla-music.github.io/"
 languageCode = "en"
 title = "Vanilla Music"
 theme = "vanilla-base-theme"

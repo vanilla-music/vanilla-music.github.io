@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Vanilla Music</title>
-    <link>http://vanillamusic.io/post/</link>
+    <link>https://vanilla-music.github.io/post/</link>
     <description>Recent content in Posts on Vanilla Music</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://vanillamusic.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vanilla-music.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vanilla Music</title>
-      <link>http://vanillamusic.io/post/about/</link>
+      <link>https://vanilla-music.github.io/post/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vanillamusic.io/post/about/</guid>
+      <guid>https://vanilla-music.github.io/post/about/</guid>
       <description>&lt;p&gt;Vanilla Music is a fast, small and free (GPLv3 licensed) music player for android devices. The App is available via
 &lt;a href=&#34;https://f-droid.org/repository/browse/?fdid=ch.blinkenlights.android.vanilla&#34;&gt;F-Droid&lt;/a&gt; and
 &lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.blinkenlights.android.vanilla&#34;&gt;Google Play&lt;/a&gt;&lt;/p&gt;
@@ -22,34 +22,34 @@
     
     <item>
       <title>Screenshots</title>
-      <link>http://vanillamusic.io/post/demo/</link>
+      <link>https://vanilla-music.github.io/post/demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vanillamusic.io/post/demo/</guid>
+      <guid>https://vanilla-music.github.io/post/demo/</guid>
       <description>
 
 &lt;h3 id=&#34;music-library&#34;&gt;Music Library&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://vanillamusic.io/img/sshot2.jpg&#34; alt=&#34;Library&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://vanilla-music.github.io/img/sshot2.jpg&#34; alt=&#34;Library&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;now-playing&#34;&gt;Now Playing&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://vanillamusic.io/img/sshot1.jpg&#34; alt=&#34;Now Playing&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://vanilla-music.github.io/img/sshot1.jpg&#34; alt=&#34;Now Playing&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Downloads</title>
-      <link>http://vanillamusic.io/post/download/</link>
+      <link>https://vanilla-music.github.io/post/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vanillamusic.io/post/download/</guid>
+      <guid>https://vanilla-music.github.io/post/download/</guid>
       <description>
 
 &lt;h3 id=&#34;app-stores&#34;&gt;App stores&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.blinkenlights.android.vanilla&#34;&gt;&lt;img src=&#34;http://vanillamusic.io/img/google-play.png&#34; alt=&#34;Get it on Google-Play&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://f-droid.org/repository/browse/?fdfilter=vanilla+music&amp;amp;fdid=ch.blinkenlights.android.vanilla&#34;&gt;&lt;img src=&#34;http://vanillamusic.io/img/f-droid.png&#34; alt=&#34;Get it on F-Droid&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.blinkenlights.android.vanilla&#34;&gt;&lt;img src=&#34;https://vanilla-music.github.io/img/google-play.png&#34; alt=&#34;Get it on Google-Play&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://f-droid.org/repository/browse/?fdfilter=vanilla+music&amp;amp;fdid=ch.blinkenlights.android.vanilla&#34;&gt;&lt;img src=&#34;https://vanilla-music.github.io/img/f-droid.png&#34; alt=&#34;Get it on F-Droid&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;nightly-builds&#34;&gt;Nightly builds&lt;/h3&gt;
 
@@ -60,10 +60,10 @@ that these builds are for testing only and may or may not work.&lt;/p&gt;
     
     <item>
       <title>Get involved!</title>
-      <link>http://vanillamusic.io/post/development/</link>
+      <link>https://vanilla-music.github.io/post/development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vanillamusic.io/post/development/</guid>
+      <guid>https://vanilla-music.github.io/post/development/</guid>
       <description>
 
 &lt;h3 id=&#34;translation&#34;&gt;Translation&lt;/h3&gt;

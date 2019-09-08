@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://vanillamusic.io/</loc>
+    <loc>https://vanilla-music.github.io/</loc>
   </url>
   
   <url>
-    <loc>http://vanillamusic.io/post/about/</loc>
+    <loc>https://vanilla-music.github.io/post/about/</loc>
   </url>
   
   <url>
-    <loc>http://vanillamusic.io/post/demo/</loc>
+    <loc>https://vanilla-music.github.io/post/demo/</loc>
   </url>
   
   <url>
-    <loc>http://vanillamusic.io/post/download/</loc>
+    <loc>https://vanilla-music.github.io/post/download/</loc>
   </url>
   
   <url>
-    <loc>http://vanillamusic.io/post/development/</loc>
+    <loc>https://vanilla-music.github.io/post/development/</loc>
   </url>
   
 </urlset>
